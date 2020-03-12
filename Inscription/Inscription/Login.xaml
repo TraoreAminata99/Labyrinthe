@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Connexion"
+             x:Class="Inscription.Login" BackgroundImageSource="ami.jpg">
+
+    <StackLayout Orientation="Vertical" Spacing="20" Margin="50" Padding="0,60,0,100" Opacity="2">
+        <!-- Place new controls here 
+        <Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />-->
+
+        <Label Text="Email" HorizontalOptions="Center" TextColor="Moccasin" FontSize="20"  CharacterSpacing="4" FontAttributes="Italic"  />
+        <Frame BorderColor="Black" HeightRequest="39" CornerRadius="150" BackgroundColor="Transparent">
+            <Entry Keyboard="Email"  x:Name="edit1" TextColor="White" Placeholder="at193542@gmail.com" FontFamily="bold" />
+        </Frame>
+
+
+        <Label Text="Mot de passe"  HorizontalOptions="Center" TextColor="Moccasin" FontSize="20"  CharacterSpacing="4" FontAttributes="Italic"   />
+        <Frame  BorderColor="Black"  HeightRequest="39"  CornerRadius="250" BackgroundColor="Transparent" >
+            <Entry IsPassword="True" x:Name="edit2" TextColor="White" Placeholder="........" HorizontalTextAlignment="Center"/>
+        </Frame>
+
+
+
+        <Button Text="Connexion" x:Name="btn1" BackgroundColor="Red" CornerRadius="30" FontAttributes="None" FontSize="Large" />
+
+        
+       
+        
+        <Label Text="" HorizontalOptions="Center"  TextColor="red" FontSize="Large" x:Name="msg1"/>
+
+
+        
+        
+        
+        <Label Text="Mot de passe oublié ?" HorizontalOptions="End"  TextColor="Moccasin" FontSize="Default" x:Name="message1" />
+
+    </StackLayout>
+
+</ContentPage>

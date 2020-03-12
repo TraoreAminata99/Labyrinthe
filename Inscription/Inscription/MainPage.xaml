@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="login"
+             Padding="0,20,0,0"
+             x:Class="Inscription.MainPage" BackgroundImageSource="index1.jpg" >
+
+    <StackLayout Orientation="Vertical" Spacing="5" Margin="75" >
+        <!-- Place new controls here-->
+        <Label Text="Nom" HorizontalOptions="Center"  TextColor="Black"/>
+        <Entry Keyboard="Text"  x:Name="edit1" TextColor="White" Placeholder="Traore" />
+
+        <Label Text="Prenom" HorizontalOptions="Center" TextColor="Black"/>
+        <Entry Keyboard="Text"  x:Name="edit2" TextColor="White" Placeholder="Aminata"/>
+
+        <Label Text="Email" HorizontalOptions="Center" TextColor="Black" />
+        <Entry Keyboard="Text"  x:Name="edit3" TextColor="White" Placeholder="at193542@gmail.com"/>
+
+        <Label Text="Mot de passe" HorizontalOptions="Center" TextColor="Black" />
+        <Entry IsPassword="True"  x:Name="edit4" TextColor="White" Placeholder="........"/>
+
+        <Label Text="Confirmation du mot passe" HorizontalOptions="Center" TextColor="Black"/>
+        <Entry IsPassword="True"  x:Name="edit5" TextColor="White" Placeholder="........"/>
+
+        <Button Text="Inscription" x:Name="btn" BackgroundColor="Violet" CornerRadius="20"/>
+
+        
+        
+        <Label Text="" HorizontalOptions="Center"  TextColor="BlueViolet" x:Name="message" FontSize="Large" FontAttributes="Bold"/>
+
+
+    </StackLayout>
+
+</ContentPage>

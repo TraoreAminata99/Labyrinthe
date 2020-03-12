@@ -1,0 +1,15 @@
+C:\Users\TRAORE\source\repos\Inscription\Inscription\bin\Debug\netstandard2.0\Inscription.deps.json
+C:\Users\TRAORE\source\repos\Inscription\Inscription\bin\Debug\netstandard2.0\Inscription.dll
+C:\Users\TRAORE\source\repos\Inscription\Inscription\bin\Debug\netstandard2.0\ref\Inscription.dll
+C:\Users\TRAORE\source\repos\Inscription\Inscription\bin\Debug\netstandard2.0\Inscription.pdb
+C:\Users\TRAORE\source\repos\Inscription\Inscription\obj\Debug\netstandard2.0\Inscription.csprojAssemblyReference.cache
+C:\Users\TRAORE\source\repos\Inscription\Inscription\obj\Debug\netstandard2.0\Accueil.xaml.g.cs
+C:\Users\TRAORE\source\repos\Inscription\Inscription\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\TRAORE\source\repos\Inscription\Inscription\obj\Debug\netstandard2.0\Login.xaml.g.cs
+C:\Users\TRAORE\source\repos\Inscription\Inscription\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\TRAORE\source\repos\Inscription\Inscription\obj\Debug\netstandard2.0\Inscription.AssemblyInfoInputs.cache
+C:\Users\TRAORE\source\repos\Inscription\Inscription\obj\Debug\netstandard2.0\Inscription.AssemblyInfo.cs
+C:\Users\TRAORE\source\repos\Inscription\Inscription\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\TRAORE\source\repos\Inscription\Inscription\obj\Debug\netstandard2.0\Inscription.dll
+C:\Users\TRAORE\source\repos\Inscription\Inscription\obj\Debug\netstandard2.0\ref\Inscription.dll
+C:\Users\TRAORE\source\repos\Inscription\Inscription\obj\Debug\netstandard2.0\Inscription.pdb
