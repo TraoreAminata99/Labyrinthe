@@ -1,0 +1,15 @@
+C:\Users\TRAORE\source\repos\Truman\Truman\bin\Debug\netstandard2.0\Truman.deps.json
+C:\Users\TRAORE\source\repos\Truman\Truman\bin\Debug\netstandard2.0\Truman.dll
+C:\Users\TRAORE\source\repos\Truman\Truman\bin\Debug\netstandard2.0\ref\Truman.dll
+C:\Users\TRAORE\source\repos\Truman\Truman\bin\Debug\netstandard2.0\Truman.pdb
+C:\Users\TRAORE\source\repos\Truman\Truman\obj\Debug\netstandard2.0\Truman.csprojAssemblyReference.cache
+C:\Users\TRAORE\source\repos\Truman\Truman\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\TRAORE\source\repos\Truman\Truman\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\TRAORE\source\repos\Truman\Truman\obj\Debug\netstandard2.0\Truman.AssemblyInfoInputs.cache
+C:\Users\TRAORE\source\repos\Truman\Truman\obj\Debug\netstandard2.0\Truman.AssemblyInfo.cs
+C:\Users\TRAORE\source\repos\Truman\Truman\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\TRAORE\source\repos\Truman\Truman\obj\Debug\netstandard2.0\Truman.dll
+C:\Users\TRAORE\source\repos\Truman\Truman\obj\Debug\netstandard2.0\ref\Truman.dll
+C:\Users\TRAORE\source\repos\Truman\Truman\obj\Debug\netstandard2.0\Truman.pdb
+C:\Users\TRAORE\source\repos\Truman\Truman\obj\Debug\netstandard2.0\Appointment.xaml.g.cs
+C:\Users\TRAORE\source\repos\Truman\Truman\obj\Debug\netstandard2.0\Confirm.xaml.g.cs

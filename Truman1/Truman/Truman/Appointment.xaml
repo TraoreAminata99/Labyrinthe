@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Truman.Appointment" NavigationPage.HasNavigationBar="False" BackgroundColor="White">
+    <ScrollView>
+        
+        <StackLayout Margin="20,0,20,0" HeightRequest="850" TranslationY="20">
+
+            <StackLayout Orientation="Horizontal" >
+                <Image Source="chat" HorizontalOptions="Start" HeightRequest="30"/>
+                <Label Text="APPOINTMENT" HorizontalOptions="CenterAndExpand" TextColor="Black" FontAttributes="Bold" FontSize="25"/>
+            </StackLayout>
+            
+            <StackLayout TranslationY="20">
+            <Frame CornerRadius="30" HeightRequest="40" BackgroundColor="#5e5e5d">
+
+                <StackLayout>
+                    <StackLayout>
+                        <Label Text="Reason"/>
+                        <Label Text="General Visit" TextColor="Black" />
+                    </StackLayout>
+                    <ImageButton Source="chat" Aspect="AspectFit" HeightRequest="20" HorizontalOptions="EndAndExpand" TranslationY="-40"/>
+                </StackLayout>
+
+            </Frame>
+
+
+                <Frame CornerRadius="30" HeightRequest="400" BackgroundColor="#5e5e5d">
+
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <StackLayout>
+                            <Label Text="Details"/>
+                            <Label Text="General Visit" TextColor="Black" />
+                        </StackLayout>
+                        <ImageButton Source="chat" Aspect="AspectFit" HeightRequest="20" HorizontalOptions="EndAndExpand" BackgroundColor="Transparent"/>
+                    </StackLayout>
+
+
+                    <StackLayout BackgroundColor="White" HeightRequest="80" Margin="20,0,20,0" TranslationY="30">
+                        <Label Text="We wedill the las know about yuur get and their needs. Please white down pry questionns you nigth have."/>
+                    </StackLayout>
+
+
+                    <StackLayout  Orientation="Horizontal" TranslationY="50">
+                        <Button Text="Itchy Skin" TextColor="Black" FontSize="10" CornerRadius="40" BackgroundColor="White"/>
+                        <Button Text="Flea/Tick Treatiment" TextColor="Black" FontSize="10" CornerRadius="40" BackgroundColor="White"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" TranslationY="60">
+                        <Button Text="Ear Issue" TextColor="Black" FontSize="10" CornerRadius="40" BackgroundColor="White"/>
+                        <Button Text="Eye Issue" TextColor="Black" FontSize="10" CornerRadius="40" BackgroundColor="White"/>
+                        <Button Text="Mouth Issue" TextColor="Black" FontSize="10" CornerRadius="40" BackgroundColor="White"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" TranslationY="70">
+                        <Button Text="Vaccination/Deworning" BackgroundColor="Orange" TextColor="Red" FontSize="10" CornerRadius="40" />
+                        <Button Text="Wound" TextColor="Black" FontSize="10" CornerRadius="40" BackgroundColor="White" />
+                    </StackLayout>
+
+                </StackLayout>
+
+            </Frame>
+
+
+                <Frame CornerRadius="30" HeightRequest="100" BackgroundColor="#5e5e5d">
+
+                <StackLayout>
+
+                    <StackLayout>
+                        <Label Text="Date and Time"/>
+                        <Label Text="3:30PM" TextColor="Black" FontSize="15" FontAttributes="Bold"/>
+                        <Label Text="Saturday,March 14,2020" TextColor="Black" FontSize="15" FontAttributes="Bold" />
+                    </StackLayout>
+                    <ImageButton Source="chat" Aspect="AspectFit" HeightRequest="20" HorizontalOptions="EndAndExpand" TranslationY="-40"/>
+
+                </StackLayout>
+
+
+            </Frame>
+
+            <Button Text="Confirm Appointment" BackgroundColor="OrangeRed" CornerRadius="40" x:Name="btn2" TextColor="White"/>
+            </StackLayout>
+        </StackLayout>
+        
+    </ScrollView>
+</ContentPage>

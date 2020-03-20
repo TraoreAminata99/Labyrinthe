@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Truman.Confirm" NavigationPage.HasNavigationBar="False">
+
+
+    <ScrollView>
+
+        <StackLayout HeightRequest="750" TranslationY="30">
+
+
+            <StackLayout Orientation="Horizontal" >
+                <Image Source="chat" Aspect="AspectFit" HeightRequest="30" HorizontalOptions="StartAndExpand" TranslationX="20"/>
+                <Label Text="CONFIRMATION" TextColor="Black" FontSize="20" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" TranslationX="-20"/>
+            </StackLayout>
+
+            <StackLayout TranslationY="20">
+                <Image Source="chat" Aspect="AspectFill" HeightRequest="350"/>
+            </StackLayout>
+
+            <Frame HeightRequest="700" CornerRadius="30" TranslationY="-50">
+
+                <StackLayout Margin="20,0,20,0">
+
+                    <StackLayout >
+                        <Label Text="Banfield Pet Hospital" TextColor="Black" FontSize="30" FontAttributes="Bold"/>
+                        <Label Text="100 123th Ave,Seattle,WA"/>
+                    </StackLayout>
+
+                    <StackLayout>
+
+                        <StackLayout TranslationY="20">
+                            <Label Text="Dr.Carol C" TextColor="Black" FontSize="15" FontAttributes="Bold"/>
+                            <Label Text="Room A"  FontSize="15"/>
+                        </StackLayout>
+
+                        <StackLayout TranslationY="30">
+                            <Label Text="3.30PM" TextColor="Black" FontSize="15" FontAttributes="Bold" />
+                            <Label Text="Saturday,Mar 14,2020"  FontSize="15"/>
+                        </StackLayout>
+
+                        <StackLayout TranslationY="40">
+                            <Label Text="General Visit" TextColor="Black"  FontSize="15" FontAttributes="Bold"/>
+                            <Label Text="Vaccination/Deworming"  FontSize="15"/>
+                        </StackLayout>
+
+                    </StackLayout>
+
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" TranslationY="30" Margin="40,20,20,0">
+                        
+                        <ImageButton Source="chat" Aspect="AspectFit" HeightRequest="30" BackgroundColor="White" CornerRadius="100" TranslationX="-20"/>
+                        <ImageButton Source="chat" Aspect="AspectFit" HeightRequest="30" BackgroundColor="White" CornerRadius="100" TranslationX="-20"/>
+                        <Button Text="Make Appointment" TextColor="White" CornerRadius="40" BackgroundColor="OrangeRed" TranslationX="20" x:Name="btn1"/>
+
+                    </StackLayout>
+
+
+                </StackLayout>
+
+            </Frame>
+
+
+        </StackLayout>
+
+    </ScrollView>
+
+
+
+</ContentPage>
